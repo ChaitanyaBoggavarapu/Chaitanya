@@ -1,14 +1,41 @@
-<form>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form-CoronaVirus</title>
+        <!--Using Style for all headers and Paragraphs-->
+        <style>
+        h1{
+            color: blueviolet;
+            text-align: center;
+        }
+        p{
+            color: blue;
+            text-align: left;
+        }
+    </style>
+    </head>
+    <body>
+        <h1 style="color: blueviolet;text-align: center;">Corona-Virus(Covid-19) Information form</h1>
+        <form>
 
-    <input type="text" placeholder="Full Name" name="name">
-    <ol>
-    <li><p>Have you travelled Outside New mexico Recently</p></li>    
-       <p>Yes <input type="checkbox" name="Traveled"> </p>   
-       <p>No <input type="checkbox" name="Traveled"> </p>   
-    <li><p>Do yo feel symptoms like cough or fever</p></li>
-        <p>Yes <input type="checkbox" name="CheckingSymptomns"> </p>   
-        <p>No <input type="checkbox" name="CheckingSymptomns"> </p>   
-    </ol>
-    <button>Submit!</button>
+            <input type="text" placeholder="Full Name" name="name">
+            <input type="text" placeholder="ID" name="ID">
+            <ol>
+            <li><p style="color:blue">Have you travelled Outside New mexico Recently?</p></li>    
+            <p>Yes <input type="checkbox" name="Traveled"> </p>   
+            <p>No <input type="checkbox" name="Traveled"> </p>   
+            <li><p style="color:blue">Are you planning to travel outside New mexico in spring break?</p></li>    
+            <p>Yes <input type="checkbox" name="Traveled"> </p>   
+            <p>No <input type="checkbox" name="Traveled"> </p>   
+            <li><p>Expected returned Back </p></li>
+            <input type="text" placeholder="MM/DD/YYYY" name="name">
+            <li><p style="color:blue">Do you feel symptoms like cough or fever?</p></li>
+                <p>Yes <input type="checkbox" name="CheckingSymptomns"> </p>   
+                <p>No <input type="checkbox" name="CheckingSymptomns"> </p>   
+            </ol>
+            <button>Submit!</button>
 
-</form>
+        </form>
+        <h1>We will not share your information to others without your consent</h1>
+    </body>
+</html>
