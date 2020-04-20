@@ -1,0 +1,41 @@
+
+.body{
+    margin: 20px;
+    padding: 10px;
+}
+
+.topofeverypage {
+    
+    background-color: aqua;      
+    font-size: large;      
+                }
+.conatiner{
+    text-align: right;
+    padding: 5px;
+  
+    text-decoration-color: beige;
+          }  
+
+#DisplayPIC{
+    
+    background-color:wheat;
+    
+    font-size: medium;
+    color:green;
+
+}          
+
+.text{
+    
+    
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(68, 160, 196);
+}
+
+#Academic_Projects{
+background-color: tomato;
+font: outline;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
