@@ -6,6 +6,12 @@
         function hello(){
             alert("Opening Resume")
             }
+        
+        function Exit(){
+
+            document.querySelector('button').innerHTML="Thanks for checking out My Portfolio Page";
+        }
+
         </script>    
         <link rel="stylesheet" type="text/css" href="style-sheet.css">
     </head>
@@ -52,6 +58,7 @@
                     <form action="Resume.pdf">
                         <input onclick="hello()" type="submit" value="Resume" />
                     </form>
+                    <button type="button" onclick="Exit()">Exit</button>
                     </div>
             
         </div>
